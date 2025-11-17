@@ -1,0 +1,54 @@
+/build/
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+.metadata/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Log files
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.h2.db
+
+# IDE
+*.swp
+*.swo
+*~
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+dist/
+out/
+
+# Application
+*.jar
+*.war
+*.ear
+*.zip
+
+# Temporary files
+tmp/
+temp/
+
+# Config files (exceto se precisar versionar)
+application.properties
+application-dev.properties
