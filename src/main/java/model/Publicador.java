@@ -14,7 +14,7 @@ public class Publicador {
 	public enum TipoPublicador {
 		NORMAL, AUXILIAR, REGULAR, ESPECIAL
 	}
-
+ 
 	// Construtores
 	public Publicador() {
 	}

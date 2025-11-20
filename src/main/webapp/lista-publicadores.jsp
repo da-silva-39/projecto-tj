@@ -52,7 +52,7 @@
             <div class="stat-card">
                 <h3>Total de Publicadores</h3>
                 <span class="stat-number"><%= publicadores.size() %></span>
-            </div>
+            </div> 
             <div class="stat-card">
                 <h3>Pioneiros Regulares</h3>
                 <span class="stat-number"><%= totalRegular %></span>

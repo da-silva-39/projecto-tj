@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Publicadores - Testemunhas de Jeová</title>
+    <title>Sistema de Publicadores </title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
     <style>
         .hero-section {
@@ -108,11 +108,15 @@
         }
         
         .welcome-message p {
-            color: #7f8c8d;
+            color: white;
             font-size: 1.1rem;
             max-width: 600px;
             margin: 0 auto;
             line-height: 1.6;
+        }
+        
+        .jose {
+        	color: yellow;
         }
         
         @media (max-width: 768px) {
@@ -143,7 +147,7 @@
     <section class="hero-section">
         <div class="hero-content">
             <h1 class="hero-title">📊 Sistema de Publicadores</h1>
-            <p class="hero-subtitle">Gerencie de forma eficiente os relatórios de serviço dos publicadores do Reino</p>
+            <p class="hero-subtitle">Pra gerenciar de forma eficiente os relatórios de serviço dos publicadores da Congregacao Nhamaonha</p>
             
             <div class="quick-actions">
                 <a href="${pageContext.request.contextPath}/publicadores?action=novo" class="btn btn-primary btn-large">
@@ -162,7 +166,7 @@
     <div class="container">
         <!-- Welcome Message -->
         <div class="welcome-message">
-            <h2>Bem-vindo ao Sistema de Gestão</h2>
+            <h2>Bem-vindo Joao Anibal ao sistema de Relatorios para Publicadores</h2>
             <p>Uma ferramenta completa para acompanhar o serviço dos publicadores, pioneiros auxiliares, regulares e especiais da congregação.</p>
         </div>
 
@@ -172,7 +176,7 @@
                 <span class="feature-icon">👥</span>
                 <h3 class="feature-title">Gestão de Publicadores</h3>
                 <p class="feature-description">
-                    Cadastre e gerencie todos os publicadores da congregação. 
+                    Adicione e veja todos os publicadores da congregação. 
                     Mantenha registros atualizados com informações completas sobre 
                     cada servo de Jeová.
                 </p>
@@ -264,7 +268,7 @@
             <h2 style="color: #2c3e50; margin-bottom: 2rem;">Comece Agora Mesmo</h2>
             <div class="quick-actions">
                 <a href="${pageContext.request.contextPath}/publicadores?action=novo" class="btn btn-primary btn-large">
-                    🚀 Começar Cadastro
+                    🚀 Adicionar novo publicador
                 </a>
                 <a href="${pageContext.request.contextPath}/publicadores" class="btn btn-secondary btn-large">
                     📋 Ver Lista Completa
@@ -277,7 +281,9 @@
     <footer style="background: #2c3e50; color: white; text-align: center; padding: 2rem 0; margin-top: 4rem;">
         <div class="container">
             <p style="margin: 0; opacity: 0.8;">
-                Sistema de Publicadores - Desenvolvido para o serviço do Reino 🕊️
+                Sistema de Publicadores - Desenvolvido para o serviço do Reino 
+                
+                <p class="jose"> <strong>  💯 JOSE JOAO ANIBAL DA SILVA 🕊️ </strong>  </p>
             </p>
             <p style="margin: 0.5rem 0 0 0; opacity: 0.6; font-size: 0.9rem;">
                 "Vão e façam discípulos de pessoas de todas as nações" - Mateus 28:19

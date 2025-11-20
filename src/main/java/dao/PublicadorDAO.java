@@ -7,7 +7,7 @@ import java.util.List;
 
 public class PublicadorDAO {
 	private Connection connection;
-
+ 
 	public PublicadorDAO(Connection connection) {
 		this.connection = connection;
 	}

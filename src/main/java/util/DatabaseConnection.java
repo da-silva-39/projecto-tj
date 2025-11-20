@@ -16,7 +16,7 @@ public class DatabaseConnection {
 			throw new SQLException("Driver PostgreSQL não encontrado", e);
 		}
 		return DriverManager.getConnection(URL, USER, PASSWORD);
-	}
+	} 
 
 	// Método para testar a conexão
 	public static boolean testConnection() {

@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     configurarAnimações();
     configurarEventListeners();
 });
-
+ 
 function inicializarSistema() {
     console.log('Sistema de Publicadores inicializado com sucesso!');
     
