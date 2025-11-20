@@ -11,7 +11,7 @@ public class PublicadorDAO {
 	public PublicadorDAO(Connection connection) {
 		this.connection = connection;
 	}
-
+ 
 	public void adicionarPublicador(Publicador publicador) throws SQLException {
 		String sql = "INSERT INTO publicadores (nome, tipo_publicador, horas_mes, estudos_biblicos, participou, data_registro) VALUES (?, ?, ?, ?, ?, ?)";
 

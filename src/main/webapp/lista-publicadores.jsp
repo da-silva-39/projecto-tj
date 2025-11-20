@@ -46,7 +46,7 @@
             <h1>👥 Lista de Publicadores</h1>
             <a href="publicadores?action=novo" class="btn btn-primary">➕ Novo Publicador</a>
         </header>
-
+ 
         <!-- Estatísticas -->
         <div class="stats-grid">
             <div class="stat-card">

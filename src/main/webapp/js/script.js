@@ -16,7 +16,7 @@ function inicializarSistema() {
         animarEntradaElementos();
     }
 }
-
+ 
 function configurarValidacoes() {
     const form = document.getElementById('publicadorForm');
     if (form) {

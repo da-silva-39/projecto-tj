@@ -24,7 +24,7 @@
     if (estudosAuxiliar == null) estudosAuxiliar = 0;
     if (estudosRegular == null) estudosRegular = 0;
     if (estudosEspecial == null) estudosEspecial = 0;
-%> 
+%>  
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>

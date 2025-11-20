@@ -10,7 +10,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import model.Publicador;
+import model.Publicador; 
  
 @WebServlet(name = "PublicadorServlet", urlPatterns = { "/publicadores" })
 public class PublicadorServlet extends HttpServlet {

@@ -10,7 +10,7 @@ import util.DatabaseConnection;
 
 @WebListener
 public class AppContextListener implements ServletContextListener {
- 
+  
 	@Override
 	public void contextInitialized(ServletContextEvent sce) {
 		System.out.println("Inicializando contexto da aplicação...");
