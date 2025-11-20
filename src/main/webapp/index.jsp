@@ -289,7 +289,7 @@
                 "Vão e façam discípulos de pessoas de todas as nações" - Mateus 28:19
             </p>
         </div>
-    </footer>
+    </footer> 
 
     <script src="${pageContext.request.contextPath}/js/script.js"></script>
     <script>
