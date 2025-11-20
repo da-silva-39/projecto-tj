@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: publicadores-tj
+    env: docker
+    plan: free
